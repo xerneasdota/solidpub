@@ -1,0 +1,190 @@
+2025-04-19 22:02:27,643 - __main__ - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:02:27,653 - __main__ - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:02:27,659 - __main__ - ERROR - Unhandled error: attempted relative import beyond top-level package
+Traceback (most recent call last):
+  File "c:\Users\Baybora\Desktop\solid\columb\app.py", line 186, in main
+    from database.schema import init_db
+  File "c:\Users\Baybora\Desktop\solid\columb\database\schema.py", line 10, in <module>
+    from ..config import DATABASE
+ImportError: attempted relative import beyond top-level package
+2025-04-19 22:02:27,664 - __main__ - INFO - Shutting down...
+2025-04-19 22:02:27,664 - __main__ - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:02:36,929 - __main__ - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:02:36,936 - __main__ - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:02:36,940 - __main__ - ERROR - Unhandled error: attempted relative import beyond top-level package
+Traceback (most recent call last):
+  File "c:\Users\Baybora\Desktop\solid\columb\app.py", line 186, in main
+    from database.schema import init_db
+  File "c:\Users\Baybora\Desktop\solid\columb\database\schema.py", line 10, in <module>
+    from ..config import DATABASE
+ImportError: attempted relative import beyond top-level package
+2025-04-19 22:02:36,945 - __main__ - INFO - Shutting down...
+2025-04-19 22:02:36,945 - __main__ - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:05:06,819 - __main__ - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:05:06,826 - __main__ - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:05:06,830 - __main__ - ERROR - Unhandled error: attempted relative import beyond top-level package
+Traceback (most recent call last):
+  File "c:\Users\Baybora\Desktop\solid\columb\app.py", line 186, in main
+    from database.schema import init_db
+  File "c:\Users\Baybora\Desktop\solid\columb\database\schema.py", line 10, in <module>
+    from ..config import DATABASE
+ImportError: attempted relative import beyond top-level package
+2025-04-19 22:05:06,835 - __main__ - INFO - Shutting down...
+2025-04-19 22:05:06,835 - __main__ - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:05:42,093 - __main__ - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:05:42,101 - __main__ - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:05:42,104 - __main__ - ERROR - Unhandled error: attempted relative import beyond top-level package
+Traceback (most recent call last):
+  File "c:\Users\Baybora\Desktop\solid\columb\app.py", line 186, in main
+    from database.schema import init_db
+  File "c:\Users\Baybora\Desktop\solid\columb\database\schema.py", line 10, in <module>
+    from ..config import DATABASE
+ImportError: attempted relative import beyond top-level package
+2025-04-19 22:05:42,108 - __main__ - INFO - Shutting down...
+2025-04-19 22:05:42,109 - __main__ - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:06:13,681 - __main__ - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:06:13,689 - __main__ - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:06:13,692 - __main__ - ERROR - Unhandled error: attempted relative import beyond top-level package
+Traceback (most recent call last):
+  File "c:\Users\Baybora\Desktop\solid\columb\app.py", line 186, in main
+    from database.schema import init_db
+  File "c:\Users\Baybora\Desktop\solid\columb\database\schema.py", line 10, in <module>
+    from ..config import DATABASE
+ImportError: attempted relative import beyond top-level package
+2025-04-19 22:06:13,697 - __main__ - INFO - Shutting down...
+2025-04-19 22:06:13,697 - __main__ - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:11:21,333 - app - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:11:21,338 - app - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:11:21,354 - app - ERROR - Unhandled error: cannot import name 'init_db' from 'database.schema' (C:\Users\Baybora\Desktop\solid\columb\database\schema.py)
+Traceback (most recent call last):
+  File "C:\Users\Baybora\Desktop\solid\columb\app.py", line 186, in main
+    from database.schema import init_db
+ImportError: cannot import name 'init_db' from 'database.schema' (C:\Users\Baybora\Desktop\solid\columb\database\schema.py)
+2025-04-19 22:11:21,360 - app - INFO - Shutting down...
+2025-04-19 22:11:21,360 - app - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:11:54,827 - app - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:11:54,832 - app - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:11:54,836 - app - ERROR - Unhandled error: cannot import name 'init_db' from 'database.schema' (C:\Users\Baybora\Desktop\solid\columb\database\schema.py)
+Traceback (most recent call last):
+  File "C:\Users\Baybora\Desktop\solid\columb\app.py", line 186, in main
+    from database.schema import init_db
+ImportError: cannot import name 'init_db' from 'database.schema' (C:\Users\Baybora\Desktop\solid\columb\database\schema.py)
+2025-04-19 22:11:54,841 - app - INFO - Shutting down...
+2025-04-19 22:11:54,841 - app - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:14:43,420 - app - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:14:43,425 - app - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:14:43,452 - database.schema - INFO - Created table: trading_pairs
+2025-04-19 22:14:43,458 - database.schema - INFO - Created table: price_data
+2025-04-19 22:14:43,465 - database.schema - INFO - Created table: metrics
+2025-04-19 22:14:43,471 - database.schema - INFO - Created table: rankings
+2025-04-19 22:14:43,477 - database.schema - INFO - Created table: opportunities
+2025-04-19 22:14:43,483 - database.schema - INFO - Created table: backtest_results
+2025-04-19 22:14:43,489 - database.schema - INFO - Created table: backtest_summary
+2025-04-19 22:14:43,591 - database.schema - INFO - Database initialized successfully at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:14:43,596 - app - ERROR - Unhandled error: attempted relative import beyond top-level package
+Traceback (most recent call last):
+  File "C:\Users\Baybora\Desktop\solid\columb\app.py", line 190, in main
+    from database.manager import DatabaseManager
+  File "C:\Users\Baybora\Desktop\solid\columb\database\manager.py", line 11, in <module>
+    from ..config import DATABASE
+ImportError: attempted relative import beyond top-level package
+2025-04-19 22:14:43,602 - app - INFO - Shutting down...
+2025-04-19 22:14:43,602 - app - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:18:09,392 - app - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:18:09,396 - app - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:18:09,402 - database.schema - INFO - Created table: trading_pairs
+2025-04-19 22:18:09,402 - database.schema - INFO - Created table: price_data
+2025-04-19 22:18:09,403 - database.schema - INFO - Created table: metrics
+2025-04-19 22:18:09,403 - database.schema - INFO - Created table: rankings
+2025-04-19 22:18:09,403 - database.schema - INFO - Created table: opportunities
+2025-04-19 22:18:09,403 - database.schema - INFO - Created table: backtest_results
+2025-04-19 22:18:09,403 - database.schema - INFO - Created table: backtest_summary
+2025-04-19 22:18:09,404 - database.schema - INFO - Database initialized successfully at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:18:09,415 - app - INFO - Initializing Binance API client
+2025-04-19 22:18:09,564 - app - INFO - Fetching available trading pairs
+2025-04-19 22:18:10,260 - app - INFO - Using top 20 symbols
+2025-04-19 22:18:10,260 - app - INFO - Starting web mode with 20 symbols, timeframe 1h
+2025-04-19 22:18:10,417 - app - ERROR - Error in web mode: closing parenthesis ']' does not match opening parenthesis '(' on line 284 (websocket.py, line 285)
+Traceback (most recent call last):
+  File "C:\Users\Baybora\Desktop\solid\columb\app.py", line 271, in run_web_mode
+    from web.server import init_app, start_server, socketio, app, app_state, broadcast_update
+  File "C:\Users\Baybora\Desktop\solid\columb\web\server.py", line 10, in <module>
+    from flask_socketio import SocketIO
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\flask_socketio\__init__.py", line 9, in <module>
+    from socketio import socketio_manage  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\socketio\__init__.py", line 1, in <module>
+    from .client import Client
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\socketio\client.py", line 3, in <module>
+    import engineio
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\engineio\__init__.py", line 1, in <module>
+    from .client import Client
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\engineio\client.py", line 15, in <module>
+    import websocket
+  File "C:\Users\Baybora\Desktop\solid\columb\web\websocket.py", line 285
+    self.current_timeframe], 
+                          ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 284
+2025-04-19 22:18:10,450 - app - INFO - Shutting down...
+2025-04-19 22:18:10,451 - app - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:22:48,824 - app - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:22:48,829 - app - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:22:48,834 - database.schema - INFO - Created table: trading_pairs
+2025-04-19 22:22:48,835 - database.schema - INFO - Created table: price_data
+2025-04-19 22:22:48,835 - database.schema - INFO - Created table: metrics
+2025-04-19 22:22:48,835 - database.schema - INFO - Created table: rankings
+2025-04-19 22:22:48,835 - database.schema - INFO - Created table: opportunities
+2025-04-19 22:22:48,835 - database.schema - INFO - Created table: backtest_results
+2025-04-19 22:22:48,836 - database.schema - INFO - Created table: backtest_summary
+2025-04-19 22:22:48,836 - database.schema - INFO - Database initialized successfully at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:22:48,840 - app - INFO - Initializing Binance API client
+2025-04-19 22:22:48,988 - app - INFO - Fetching available trading pairs
+2025-04-19 22:22:49,618 - app - INFO - Using top 20 symbols
+2025-04-19 22:22:49,618 - app - INFO - Starting web mode with 20 symbols, timeframe 1h
+2025-04-19 22:22:49,770 - app - ERROR - Error in web mode: invalid syntax (websocket.py, line 285)
+Traceback (most recent call last):
+  File "C:\Users\Baybora\Desktop\solid\columb\app.py", line 271, in run_web_mode
+    from web.server import init_app, start_server, socketio, app, app_state, broadcast_update
+  File "C:\Users\Baybora\Desktop\solid\columb\web\server.py", line 10, in <module>
+    from flask_socketio import SocketIO
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\flask_socketio\__init__.py", line 9, in <module>
+    from socketio import socketio_manage  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\socketio\__init__.py", line 1, in <module>
+    from .client import Client
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\socketio\client.py", line 3, in <module>
+    import engineio
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\engineio\__init__.py", line 1, in <module>
+    from .client import Client
+  File "C:\Users\Baybora\AppData\Local\anaconda3\envs\solid\Lib\site-packages\engineio\client.py", line 15, in <module>
+    import websocket
+  File "C:\Users\Baybora\Desktop\solid\columb\web\websocket.py", line 285
+    self.[current_timeframe], 
+         ^
+SyntaxError: invalid syntax
+2025-04-19 22:22:49,774 - app - INFO - Shutting down...
+2025-04-19 22:22:49,774 - app - INFO - Binance Trading Analysis System shut down
+2025-04-19 22:23:07,970 - app - INFO - Starting Binance Trading Analysis System
+2025-04-19 22:23:07,975 - app - INFO - Initializing database at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:23:07,980 - database.schema - INFO - Created table: trading_pairs
+2025-04-19 22:23:07,981 - database.schema - INFO - Created table: price_data
+2025-04-19 22:23:07,981 - database.schema - INFO - Created table: metrics
+2025-04-19 22:23:07,981 - database.schema - INFO - Created table: rankings
+2025-04-19 22:23:07,981 - database.schema - INFO - Created table: opportunities
+2025-04-19 22:23:07,981 - database.schema - INFO - Created table: backtest_results
+2025-04-19 22:23:07,982 - database.schema - INFO - Created table: backtest_summary
+2025-04-19 22:23:07,982 - database.schema - INFO - Database initialized successfully at C:\Users\Baybora\Desktop\solid\columb\data\trading.db
+2025-04-19 22:23:07,986 - app - INFO - Initializing Binance API client
+2025-04-19 22:23:08,129 - app - INFO - Fetching available trading pairs
+2025-04-19 22:23:08,606 - app - INFO - Using top 20 symbols
+2025-04-19 22:23:08,607 - app - INFO - Starting web mode with 20 symbols, timeframe 1h
+2025-04-19 22:23:09,029 - app - INFO - Initializing WebSocket handler
+2025-04-19 22:23:09,029 - app - ERROR - Error in web mode: attempted relative import beyond top-level package
+Traceback (most recent call last):
+  File "C:\Users\Baybora\Desktop\solid\columb\app.py", line 279, in run_web_mode
+    from web.websocket import WebUIWebSocketHandler
+  File "C:\Users\Baybora\Desktop\solid\columb\web\websocket.py", line 16, in <module>
+    from ..analysis.metrics import calculate_all_metrics
+ImportError: attempted relative import beyond top-level package
+2025-04-19 22:23:09,030 - app - INFO - Shutting down...
+2025-04-19 22:23:09,031 - app - INFO - Binance Trading Analysis System shut down

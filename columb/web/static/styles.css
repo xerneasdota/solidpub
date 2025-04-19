@@ -1,0 +1,361 @@
+/* Overall layout */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #121212;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header section */
+.header {
+    background-color: #1e1e1e;
+    border: 1px solid #3465a4;
+    padding: 10px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* Main section */
+.main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.table-container {
+    flex: 3;
+    overflow: auto;
+    border-right: 1px solid #333;
+    padding: 0;
+}
+
+.opportunities-container {
+    flex: 1;
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid #4e9a06;
+    background-color: rgba(78, 154, 6, 0.05);
+    margin: 5px;
+}
+
+/* Footer section */
+.footer {
+    background-color: #1e1e1e;
+    border: 1px solid #3465a4;
+    padding: 10px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+}
+
+th {
+    background-color: #252525;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #333;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+td {
+    padding: 6px 8px;
+    border-bottom: 1px solid #333;
+}
+
+tr:hover {
+    background-color: #1a1a1a;
+}
+
+/* Color coding */
+.green {
+    color: #4e9a06;
+}
+
+.red {
+    color: #cc0000;
+}
+
+.cyan {
+    color: #06989a;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Panel titles */
+.panel-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+    color: #4e9a06;
+}
+
+/* Opportunities table */
+.opportunities-table {
+    width: 100%;
+}
+
+/* Button styles for control panel */
+.control-button {
+    background-color: #252525;
+    color: #06989a;
+    border: 1px solid #333;
+    padding: 4px 10px;
+    margin: 0 3px;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    border-radius: 3px;
+}
+
+.control-button:hover {
+    background-color: #333;
+}
+
+.control-button.selected {
+    background-color: #3465a4;
+    color: white;
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #1e1e1e;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #444;
+    width: 50%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: #fff;
+}
+
+/* Option buttons in modals */
+.option-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    background-color: #252525;
+    color: #ddd;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    border-radius: 3px;
+}
+
+.option-button:hover {
+    background-color: #333;
+}
+
+.option-button.selected {
+    background-color: #3465a4;
+    color: white;
+}
+
+/* Sort direction section */
+.sort-direction {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+}
+
+/* Trend arrows */
+.trend-up {
+    color: #4e9a06;
+}
+
+.trend-down {
+    color: #cc0000;
+}
+
+/* Loading indicator */
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loading-content {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.spinner {
+    border: 5px solid #333;
+    border-top: 5px solid #4e9a06;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Status message */
+.status {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    background-color: #1e1e1e;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-left: 4px solid #4e9a06;
+    z-index: 100;
+    display: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Backtest panel styling */
+#backtest-panel {
+    border: 1px solid #cc0000;
+    background-color: rgba(204, 0, 0, 0.05);
+}
+
+.backtest-summary h3, .backtest-trades h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #06989a;
+    font-size: 14px;
+}
+
+.backtest-trades {
+    margin-top: 15px;
+}
+
+/* Slot Machine Matches Styling */
+.slot-machine-match {
+    background-color: #3465a4;
+    font-weight: bold;
+}
+
+.highlight-cell {
+    background-color: rgba(52, 101, 164, 0.3);
+    font-weight: bold;
+}
+
+.jackpot {
+    background-color: rgba(78, 154, 6, 0.4);
+    font-weight: bold;
+}
+
+/* View toggle buttons */
+.view-toggle-container {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.view-toggle-button {
+    background-color: #252525;
+    color: #ddd;
+    border: 1px solid #333;
+    padding: 4px 10px;
+    margin: 0 3px;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    border-radius: 3px;
+}
+
+.view-toggle-button.active {
+    background-color: #4e9a06;
+    color: white;
+}
+
+/* Loading message */
+.loading-message {
+    padding: 20px;
+    text-align: center;
+    color: #888;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #06989a;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    background-color: #252525;
+    border: 1px solid #333;
+    color: #ddd;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+}
+
+.form-actions {
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Utility classes */
+.hidden {
+    display: none !important;
+}
